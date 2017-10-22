@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		027F4C331F9A54D400029BE8 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027F4C321F9A54D400029BE8 /* MyView.swift */; };
+		027F4C381F9A620600029BE8 /* IBDesignable_and_IBInspectable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027F4C361F9A620600029BE8 /* IBDesignable_and_IBInspectable.storyboard */; };
 		02AC7EAF1F9A3A6C00AFE44D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AC7EAE1F9A3A6C00AFE44D /* AppDelegate.swift */; };
 		02AC7EB11F9A3A6C00AFE44D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AC7EB01F9A3A6C00AFE44D /* ViewController.swift */; };
 		02AC7EB41F9A3A6C00AFE44D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02AC7EB21F9A3A6C00AFE44D /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		02AC7EBC1F9A3A6C00AFE44D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02AC7EBA1F9A3A6C00AFE44D /* LaunchScreen.storyboard */; };
 		02AC7EC71F9A3A6C00AFE44D /* iOS_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AC7EC61F9A3A6C00AFE44D /* iOS_DemoTests.swift */; };
 		02AC7ED21F9A3A6D00AFE44D /* iOS_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AC7ED11F9A3A6D00AFE44D /* iOS_DemoUITests.swift */; };
+		02AC7EE11F9A4E7900AFE44D /* IBDesignable_and_IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AC7EE01F9A4E7900AFE44D /* IBDesignable_and_IBInspectable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		027F4C321F9A54D400029BE8 /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		027F4C371F9A620600029BE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = iOS_Demo/Base.lproj/IBDesignable_and_IBInspectable.storyboard; sourceTree = "<group>"; };
 		02AC7EAB1F9A3A6C00AFE44D /* iOS_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02AC7EAE1F9A3A6C00AFE44D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02AC7EB01F9A3A6C00AFE44D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		02AC7ECD1F9A3A6D00AFE44D /* iOS_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02AC7ED11F9A3A6D00AFE44D /* iOS_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_DemoUITests.swift; sourceTree = "<group>"; };
 		02AC7ED31F9A3A6D00AFE44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02AC7EE01F9A4E7900AFE44D /* IBDesignable_and_IBInspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBDesignable_and_IBInspectable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		02AC7EAD1F9A3A6C00AFE44D /* iOS_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				02AC7EDF1F9A4D0800AFE44D /* IBdesignable_and_IBInspectable */,
 				02AC7EAE1F9A3A6C00AFE44D /* AppDelegate.swift */,
 				02AC7EB01F9A3A6C00AFE44D /* ViewController.swift */,
 				02AC7EB21F9A3A6C00AFE44D /* Main.storyboard */,
@@ -126,6 +133,16 @@
 				02AC7ED31F9A3A6D00AFE44D /* Info.plist */,
 			);
 			path = iOS_DemoUITests;
+			sourceTree = "<group>";
+		};
+		02AC7EDF1F9A4D0800AFE44D /* IBdesignable_and_IBInspectable */ = {
+			isa = PBXGroup;
+			children = (
+				027F4C361F9A620600029BE8 /* IBDesignable_and_IBInspectable.storyboard */,
+				02AC7EE01F9A4E7900AFE44D /* IBDesignable_and_IBInspectable.swift */,
+				027F4C321F9A54D400029BE8 /* MyView.swift */,
+			);
+			path = IBdesignable_and_IBInspectable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +255,7 @@
 				02AC7EBC1F9A3A6C00AFE44D /* LaunchScreen.storyboard in Resources */,
 				02AC7EB91F9A3A6C00AFE44D /* Assets.xcassets in Resources */,
 				02AC7EB41F9A3A6C00AFE44D /* Main.storyboard in Resources */,
+				027F4C381F9A620600029BE8 /* IBDesignable_and_IBInspectable.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				027F4C331F9A54D400029BE8 /* MyView.swift in Sources */,
 				02AC7EB11F9A3A6C00AFE44D /* ViewController.swift in Sources */,
 				02AC7EB71F9A3A6C00AFE44D /* iOS_Demo.xcdatamodeld in Sources */,
+				02AC7EE11F9A4E7900AFE44D /* IBDesignable_and_IBInspectable.swift in Sources */,
 				02AC7EAF1F9A3A6C00AFE44D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +320,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		027F4C361F9A620600029BE8 /* IBDesignable_and_IBInspectable.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				027F4C371F9A620600029BE8 /* Base */,
+			);
+			name = IBDesignable_and_IBInspectable.storyboard;
+			sourceTree = "<group>";
+		};
 		02AC7EB21F9A3A6C00AFE44D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
