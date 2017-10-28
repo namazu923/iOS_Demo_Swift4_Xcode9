@@ -12,11 +12,12 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    let list = ["@IBDesignable & @IBInspectable"]
+    let list = ["@IBDesignable & @IBInspectable", "Bottom Sheet"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.automaticallyAdjustsScrollViewInsets = false
         setTableView()
     }
     
@@ -62,6 +63,10 @@ extension ViewController: UITableViewDelegate {
         if indexPath.section == 0 {
             if indexPath.row == 0 {
                 performSegue(withIdentifier: "IBDesignable_and_IBInspectable", sender: nil)
+            }
+            if indexPath.row == 1 {
+                let bottomSHeetViewController = BottomSheetViewController()
+                self.show(bottomSHeetViewController, sender: self)
             }
         }
     }
