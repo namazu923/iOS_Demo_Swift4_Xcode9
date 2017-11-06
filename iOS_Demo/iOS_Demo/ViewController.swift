@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    let list = ["@IBDesignable & @IBInspectable", "Bottom Sheet"]
+    let list = ["@IBDesignable & @IBInspectable", "Bottom Sheet", "1 px"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -67,6 +67,10 @@ extension ViewController: UITableViewDelegate {
             if indexPath.row == 1 {
                 let bottomSHeetViewController = BottomSheetViewController()
                 self.show(bottomSHeetViewController, sender: self)
+            }
+            if indexPath.row == 2 {
+                let onePixelViewController = OnePixelViewController()
+                self.show(onePixelViewController, sender: self)
             }
         }
     }

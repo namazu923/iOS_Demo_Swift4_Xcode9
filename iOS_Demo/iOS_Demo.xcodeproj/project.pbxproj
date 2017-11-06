@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		022539331FB086CF0085E61A /* OnePixelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022539321FB086CF0085E61A /* OnePixelViewController.swift */; };
+		022539361FB0889C0085E61A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022539351FB0889C0085E61A /* Utility.swift */; };
+		022539391FB088EF0085E61A /* UIView_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022539381FB088EF0085E61A /* UIView_Extension.swift */; };
 		024F89BE1FA36812002C6247 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F89BD1FA36812002C6247 /* BottomSheetViewController.swift */; };
 		027F4C331F9A54D400029BE8 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027F4C321F9A54D400029BE8 /* MyView.swift */; };
 		027F4C381F9A620600029BE8 /* IBDesignable_and_IBInspectable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027F4C361F9A620600029BE8 /* IBDesignable_and_IBInspectable.storyboard */; };
@@ -43,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		022539321FB086CF0085E61A /* OnePixelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePixelViewController.swift; sourceTree = "<group>"; };
+		022539351FB0889C0085E61A /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		022539381FB088EF0085E61A /* UIView_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_Extension.swift; sourceTree = "<group>"; };
 		024F89BD1FA36812002C6247 /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
 		027F4C321F9A54D400029BE8 /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 		027F4C371F9A620600029BE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = iOS_Demo/Base.lproj/IBDesignable_and_IBInspectable.storyboard; sourceTree = "<group>"; };
@@ -101,6 +107,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		022539311FB086B10085E61A /* OnePixel */ = {
+			isa = PBXGroup;
+			children = (
+				022539321FB086CF0085E61A /* OnePixelViewController.swift */,
+			);
+			path = OnePixel;
+			sourceTree = "<group>";
+		};
+		022539341FB0888F0085E61A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				022539351FB0889C0085E61A /* Utility.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		022539371FB088B40085E61A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				022539381FB088EF0085E61A /* UIView_Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		024F89BC1FA366A1002C6247 /* Bottom Sheet */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,8 +165,11 @@
 		02AC7EAD1F9A3A6C00AFE44D /* iOS_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				022539341FB0888F0085E61A /* Common */,
+				022539371FB088B40085E61A /* Extension */,
 				024F89BC1FA366A1002C6247 /* Bottom Sheet */,
 				02AC7EDF1F9A4D0800AFE44D /* IBdesignable_and_IBInspectable */,
+				022539311FB086B10085E61A /* OnePixel */,
 				02AC7EAE1F9A3A6C00AFE44D /* AppDelegate.swift */,
 				02AC7EB01F9A3A6C00AFE44D /* ViewController.swift */,
 				02AC7EB21F9A3A6C00AFE44D /* Main.storyboard */,
@@ -495,10 +528,13 @@
 			files = (
 				027F4C331F9A54D400029BE8 /* MyView.swift in Sources */,
 				024F89BE1FA36812002C6247 /* BottomSheetViewController.swift in Sources */,
+				022539361FB0889C0085E61A /* Utility.swift in Sources */,
+				022539331FB086CF0085E61A /* OnePixelViewController.swift in Sources */,
 				02AC7EB11F9A3A6C00AFE44D /* ViewController.swift in Sources */,
 				02AC7EB71F9A3A6C00AFE44D /* iOS_Demo.xcdatamodeld in Sources */,
 				02AC7EE11F9A4E7900AFE44D /* IBDesignable_and_IBInspectable.swift in Sources */,
 				02AC7EAF1F9A3A6C00AFE44D /* AppDelegate.swift in Sources */,
+				022539391FB088EF0085E61A /* UIView_Extension.swift in Sources */,
 				02965A0A1FA473610070D253 /* SheetCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
