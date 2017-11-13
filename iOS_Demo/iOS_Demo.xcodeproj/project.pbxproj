@@ -23,6 +23,7 @@
 		02AC7EC71F9A3A6C00AFE44D /* iOS_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AC7EC61F9A3A6C00AFE44D /* iOS_DemoTests.swift */; };
 		02AC7ED21F9A3A6D00AFE44D /* iOS_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AC7ED11F9A3A6D00AFE44D /* iOS_DemoUITests.swift */; };
 		02AC7EE11F9A4E7900AFE44D /* IBDesignable_and_IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AC7EE01F9A4E7900AFE44D /* IBDesignable_and_IBInspectable.swift */; };
+		02C2A7631FB9B4E900BF7792 /* UILabelTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C2A7621FB9B4E900BF7792 /* UILabelTextViewController.swift */; };
 		272CEAC0D8CB9AE23DD7144A /* Pods_iOS_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60499A51180776BE2B5C1AC /* Pods_iOS_Demo.framework */; };
 		B2C2916D24FDF6BCD451B9FB /* Pods_iOS_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9BEDDDAA07CB313958A3DF /* Pods_iOS_DemoTests.framework */; };
 		B610B9E7D17E3E1292EA5DAD /* Pods_iOS_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB368DBE5D52C90FF92FCDEB /* Pods_iOS_DemoUITests.framework */; };
@@ -68,6 +69,7 @@
 		02AC7ED11F9A3A6D00AFE44D /* iOS_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_DemoUITests.swift; sourceTree = "<group>"; };
 		02AC7ED31F9A3A6D00AFE44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02AC7EE01F9A4E7900AFE44D /* IBDesignable_and_IBInspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBDesignable_and_IBInspectable.swift; sourceTree = "<group>"; };
+		02C2A7621FB9B4E900BF7792 /* UILabelTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelTextViewController.swift; sourceTree = "<group>"; };
 		045A62747B20B3411A008DBB /* Pods-iOS_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Demo/Pods-iOS_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		7603960A2362FC5F62AE5CF3 /* Pods-iOS_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Demo/Pods-iOS_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		7C49A15082BEF45569F06257 /* Pods-iOS_DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_DemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_DemoUITests/Pods-iOS_DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				024F89BC1FA366A1002C6247 /* Bottom Sheet */,
 				02AC7EDF1F9A4D0800AFE44D /* IBdesignable_and_IBInspectable */,
 				022539311FB086B10085E61A /* OnePixel */,
+				02C2A7611FB9B4BB00BF7792 /* UILabelText */,
 				02AC7EAE1F9A3A6C00AFE44D /* AppDelegate.swift */,
 				02AC7EB01F9A3A6C00AFE44D /* ViewController.swift */,
 				02AC7EB21F9A3A6C00AFE44D /* Main.storyboard */,
@@ -207,6 +210,14 @@
 				027F4C321F9A54D400029BE8 /* MyView.swift */,
 			);
 			path = IBdesignable_and_IBInspectable;
+			sourceTree = "<group>";
+		};
+		02C2A7611FB9B4BB00BF7792 /* UILabelText */ = {
+			isa = PBXGroup;
+			children = (
+				02C2A7621FB9B4E900BF7792 /* UILabelTextViewController.swift */,
+			);
+			path = UILabelText;
 			sourceTree = "<group>";
 		};
 		40099B059D46AAE3255F4FBF /* Pods */ = {
@@ -532,6 +543,7 @@
 				022539331FB086CF0085E61A /* OnePixelViewController.swift in Sources */,
 				02AC7EB11F9A3A6C00AFE44D /* ViewController.swift in Sources */,
 				02AC7EB71F9A3A6C00AFE44D /* iOS_Demo.xcdatamodeld in Sources */,
+				02C2A7631FB9B4E900BF7792 /* UILabelTextViewController.swift in Sources */,
 				02AC7EE11F9A4E7900AFE44D /* IBDesignable_and_IBInspectable.swift in Sources */,
 				02AC7EAF1F9A3A6C00AFE44D /* AppDelegate.swift in Sources */,
 				022539391FB088EF0085E61A /* UIView_Extension.swift in Sources */,

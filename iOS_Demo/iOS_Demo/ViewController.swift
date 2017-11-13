@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    let list = ["@IBDesignable & @IBInspectable", "Bottom Sheet", "1 px"]
+    let list = ["@IBDesignable & @IBInspectable", "Bottom Sheet", "1 px", "UILabel Text"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -71,6 +71,10 @@ extension ViewController: UITableViewDelegate {
             if indexPath.row == 2 {
                 let onePixelViewController = OnePixelViewController()
                 self.show(onePixelViewController, sender: self)
+            }
+            if indexPath.row == 3 {
+                let uiLabelTextViewController = UILabelTextViewController()
+                self.show(uiLabelTextViewController, sender: self)
             }
         }
     }
