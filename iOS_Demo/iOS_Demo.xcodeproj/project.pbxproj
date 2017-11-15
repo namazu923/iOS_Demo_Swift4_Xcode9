@@ -24,6 +24,11 @@
 		02AC7ED21F9A3A6D00AFE44D /* iOS_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AC7ED11F9A3A6D00AFE44D /* iOS_DemoUITests.swift */; };
 		02AC7EE11F9A4E7900AFE44D /* IBDesignable_and_IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AC7EE01F9A4E7900AFE44D /* IBDesignable_and_IBInspectable.swift */; };
 		02C2A7631FB9B4E900BF7792 /* UILabelTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C2A7621FB9B4E900BF7792 /* UILabelTextViewController.swift */; };
+		02C2A7681FB9BDCF00BF7792 /* NMZJavaScriptCoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C2A7671FB9BDCF00BF7792 /* NMZJavaScriptCoreViewController.swift */; };
+		02C2A76A1FB9C24400BF7792 /* nmzJavaScriptCore_UIWebView.html in Resources */ = {isa = PBXBuildFile; fileRef = 02C2A7691FB9C24400BF7792 /* nmzJavaScriptCore_UIWebView.html */; };
+		02C2A76C1FB9D52100BF7792 /* nmzJavaScriptCore_UIWebVIew.js in Resources */ = {isa = PBXBuildFile; fileRef = 02C2A76B1FB9D52100BF7792 /* nmzJavaScriptCore_UIWebVIew.js */; };
+		02FAA01B1FBB2F670037DAA9 /* nmzJavaScriptCore_WKWebView.js in Resources */ = {isa = PBXBuildFile; fileRef = 02FAA01A1FBB2F670037DAA9 /* nmzJavaScriptCore_WKWebView.js */; };
+		02FAA01D1FBB303A0037DAA9 /* nmzJavaScriptCore_WKWebView.html in Resources */ = {isa = PBXBuildFile; fileRef = 02FAA01C1FBB303A0037DAA9 /* nmzJavaScriptCore_WKWebView.html */; };
 		272CEAC0D8CB9AE23DD7144A /* Pods_iOS_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60499A51180776BE2B5C1AC /* Pods_iOS_Demo.framework */; };
 		B2C2916D24FDF6BCD451B9FB /* Pods_iOS_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9BEDDDAA07CB313958A3DF /* Pods_iOS_DemoTests.framework */; };
 		B610B9E7D17E3E1292EA5DAD /* Pods_iOS_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB368DBE5D52C90FF92FCDEB /* Pods_iOS_DemoUITests.framework */; };
@@ -70,6 +75,11 @@
 		02AC7ED31F9A3A6D00AFE44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02AC7EE01F9A4E7900AFE44D /* IBDesignable_and_IBInspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBDesignable_and_IBInspectable.swift; sourceTree = "<group>"; };
 		02C2A7621FB9B4E900BF7792 /* UILabelTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelTextViewController.swift; sourceTree = "<group>"; };
+		02C2A7671FB9BDCF00BF7792 /* NMZJavaScriptCoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMZJavaScriptCoreViewController.swift; sourceTree = "<group>"; };
+		02C2A7691FB9C24400BF7792 /* nmzJavaScriptCore_UIWebView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = nmzJavaScriptCore_UIWebView.html; sourceTree = "<group>"; };
+		02C2A76B1FB9D52100BF7792 /* nmzJavaScriptCore_UIWebVIew.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = nmzJavaScriptCore_UIWebVIew.js; sourceTree = "<group>"; };
+		02FAA01A1FBB2F670037DAA9 /* nmzJavaScriptCore_WKWebView.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = nmzJavaScriptCore_WKWebView.js; sourceTree = "<group>"; };
+		02FAA01C1FBB303A0037DAA9 /* nmzJavaScriptCore_WKWebView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = nmzJavaScriptCore_WKWebView.html; sourceTree = "<group>"; };
 		045A62747B20B3411A008DBB /* Pods-iOS_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Demo/Pods-iOS_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		7603960A2362FC5F62AE5CF3 /* Pods-iOS_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Demo/Pods-iOS_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		7C49A15082BEF45569F06257 /* Pods-iOS_DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_DemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_DemoUITests/Pods-iOS_DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -167,6 +177,7 @@
 		02AC7EAD1F9A3A6C00AFE44D /* iOS_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				02C2A7641FB9BD8400BF7792 /* JavaScriptCore */,
 				022539341FB0888F0085E61A /* Common */,
 				022539371FB088B40085E61A /* Extension */,
 				024F89BC1FA366A1002C6247 /* Bottom Sheet */,
@@ -218,6 +229,18 @@
 				02C2A7621FB9B4E900BF7792 /* UILabelTextViewController.swift */,
 			);
 			path = UILabelText;
+			sourceTree = "<group>";
+		};
+		02C2A7641FB9BD8400BF7792 /* JavaScriptCore */ = {
+			isa = PBXGroup;
+			children = (
+				02C2A7671FB9BDCF00BF7792 /* NMZJavaScriptCoreViewController.swift */,
+				02C2A7691FB9C24400BF7792 /* nmzJavaScriptCore_UIWebView.html */,
+				02C2A76B1FB9D52100BF7792 /* nmzJavaScriptCore_UIWebVIew.js */,
+				02FAA01C1FBB303A0037DAA9 /* nmzJavaScriptCore_WKWebView.html */,
+				02FAA01A1FBB2F670037DAA9 /* nmzJavaScriptCore_WKWebView.js */,
+			);
+			path = JavaScriptCore;
 			sourceTree = "<group>";
 		};
 		40099B059D46AAE3255F4FBF /* Pods */ = {
@@ -359,9 +382,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02FAA01B1FBB2F670037DAA9 /* nmzJavaScriptCore_WKWebView.js in Resources */,
+				02C2A76A1FB9C24400BF7792 /* nmzJavaScriptCore_UIWebView.html in Resources */,
 				02AC7EBC1F9A3A6C00AFE44D /* LaunchScreen.storyboard in Resources */,
 				02AC7EB91F9A3A6C00AFE44D /* Assets.xcassets in Resources */,
+				02FAA01D1FBB303A0037DAA9 /* nmzJavaScriptCore_WKWebView.html in Resources */,
 				02AC7EB41F9A3A6C00AFE44D /* Main.storyboard in Resources */,
+				02C2A76C1FB9D52100BF7792 /* nmzJavaScriptCore_UIWebVIew.js in Resources */,
 				027F4C381F9A620600029BE8 /* IBDesignable_and_IBInspectable.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -537,6 +564,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02C2A7681FB9BDCF00BF7792 /* NMZJavaScriptCoreViewController.swift in Sources */,
 				027F4C331F9A54D400029BE8 /* MyView.swift in Sources */,
 				024F89BE1FA36812002C6247 /* BottomSheetViewController.swift in Sources */,
 				022539361FB0889C0085E61A /* Utility.swift in Sources */,
