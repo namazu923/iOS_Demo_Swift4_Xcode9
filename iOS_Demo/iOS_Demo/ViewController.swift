@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    let list = ["@IBDesignable & @IBInspectable", "Bottom Sheet", "1 px", "UILabel Text" , "Java Script Core"]
+    let list = ["@IBDesignable & @IBInspectable", "Bottom Sheet", "1 px", "UILabel Text" , "Java Script Core", "Frame and Bounds"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -79,6 +79,9 @@ extension ViewController: UITableViewDelegate {
             if indexPath.row == 4 {
                 let nmzJavaScriptCoreViewController = NMZJavaScriptCoreViewController()
                 self.show(nmzJavaScriptCoreViewController, sender: self)
+            }
+            if indexPath.row == 5 {
+                performSegue(withIdentifier: "frameAndBounds", sender: nil)
             }
         }
     }

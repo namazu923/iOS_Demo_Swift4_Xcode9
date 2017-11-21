@@ -46,6 +46,7 @@
                     <connections>
                         <outlet property="tableView" destination="0xe-Uf-QoX" id="pIa-UG-IRn"/>
                         <segue destination="ejM-jp-rf3" kind="show" identifier="IBDesignable_and_IBInspectable" id="25c-qx-2ec"/>
+                        <segue destination="QfM-qg-MDG" kind="show" identifier="frameAndBounds" id="Gea-7a-Soi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -77,6 +78,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eHD-TV-sMA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1166" y="-264"/>
+        </scene>
+        <!--FrameAndBounds-->
+        <scene sceneID="ubt-8i-Pdi">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FrameAndBounds" id="QfM-qg-MDG" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qut-d9-lbh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1261.875" y="366.54929577464787"/>
         </scene>
     </scenes>
 </document>

@@ -27,6 +27,7 @@
 		02C2A7681FB9BDCF00BF7792 /* NMZJavaScriptCoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C2A7671FB9BDCF00BF7792 /* NMZJavaScriptCoreViewController.swift */; };
 		02C2A76A1FB9C24400BF7792 /* nmzJavaScriptCore_UIWebView.html in Resources */ = {isa = PBXBuildFile; fileRef = 02C2A7691FB9C24400BF7792 /* nmzJavaScriptCore_UIWebView.html */; };
 		02C2A76C1FB9D52100BF7792 /* nmzJavaScriptCore_UIWebVIew.js in Resources */ = {isa = PBXBuildFile; fileRef = 02C2A76B1FB9D52100BF7792 /* nmzJavaScriptCore_UIWebVIew.js */; };
+		02FA14511FC44F6A00AF9E38 /* FrameAndBoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FA14501FC44F6A00AF9E38 /* FrameAndBoundsViewController.swift */; };
 		02FAA01B1FBB2F670037DAA9 /* nmzJavaScriptCore_WKWebView.js in Resources */ = {isa = PBXBuildFile; fileRef = 02FAA01A1FBB2F670037DAA9 /* nmzJavaScriptCore_WKWebView.js */; };
 		02FAA01D1FBB303A0037DAA9 /* nmzJavaScriptCore_WKWebView.html in Resources */ = {isa = PBXBuildFile; fileRef = 02FAA01C1FBB303A0037DAA9 /* nmzJavaScriptCore_WKWebView.html */; };
 		272CEAC0D8CB9AE23DD7144A /* Pods_iOS_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60499A51180776BE2B5C1AC /* Pods_iOS_Demo.framework */; };
@@ -78,6 +79,8 @@
 		02C2A7671FB9BDCF00BF7792 /* NMZJavaScriptCoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMZJavaScriptCoreViewController.swift; sourceTree = "<group>"; };
 		02C2A7691FB9C24400BF7792 /* nmzJavaScriptCore_UIWebView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = nmzJavaScriptCore_UIWebView.html; sourceTree = "<group>"; };
 		02C2A76B1FB9D52100BF7792 /* nmzJavaScriptCore_UIWebVIew.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = nmzJavaScriptCore_UIWebVIew.js; sourceTree = "<group>"; };
+		02FA14501FC44F6A00AF9E38 /* FrameAndBoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAndBoundsViewController.swift; sourceTree = "<group>"; };
+		02FA14521FC4601900AF9E38 /* FrameAndBounds.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = FrameAndBounds.storyboard; path = /Users/jianpingzhang/Documents/Developer/iOS_Demo_Swift4_Xcode9/iOS_Demo/iOS_Demo/Frame_and_Bounds/FrameAndBounds.storyboard; sourceTree = "<absolute>"; };
 		02FAA01A1FBB2F670037DAA9 /* nmzJavaScriptCore_WKWebView.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = nmzJavaScriptCore_WKWebView.js; sourceTree = "<group>"; };
 		02FAA01C1FBB303A0037DAA9 /* nmzJavaScriptCore_WKWebView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = nmzJavaScriptCore_WKWebView.html; sourceTree = "<group>"; };
 		045A62747B20B3411A008DBB /* Pods-iOS_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Demo/Pods-iOS_Demo.release.xcconfig"; sourceTree = "<group>"; };
@@ -177,6 +180,7 @@
 		02AC7EAD1F9A3A6C00AFE44D /* iOS_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				02FA144F1FC44B0400AF9E38 /* Frame_and_Bounds */,
 				02C2A7641FB9BD8400BF7792 /* JavaScriptCore */,
 				022539341FB0888F0085E61A /* Common */,
 				022539371FB088B40085E61A /* Extension */,
@@ -241,6 +245,15 @@
 				02FAA01A1FBB2F670037DAA9 /* nmzJavaScriptCore_WKWebView.js */,
 			);
 			path = JavaScriptCore;
+			sourceTree = "<group>";
+		};
+		02FA144F1FC44B0400AF9E38 /* Frame_and_Bounds */ = {
+			isa = PBXGroup;
+			children = (
+				02FA14501FC44F6A00AF9E38 /* FrameAndBoundsViewController.swift */,
+				02FA14521FC4601900AF9E38 /* FrameAndBounds.storyboard */,
+			);
+			path = Frame_and_Bounds;
 			sourceTree = "<group>";
 		};
 		40099B059D46AAE3255F4FBF /* Pods */ = {
@@ -567,6 +580,7 @@
 				02C2A7681FB9BDCF00BF7792 /* NMZJavaScriptCoreViewController.swift in Sources */,
 				027F4C331F9A54D400029BE8 /* MyView.swift in Sources */,
 				024F89BE1FA36812002C6247 /* BottomSheetViewController.swift in Sources */,
+				02FA14511FC44F6A00AF9E38 /* FrameAndBoundsViewController.swift in Sources */,
 				022539361FB0889C0085E61A /* Utility.swift in Sources */,
 				022539331FB086CF0085E61A /* OnePixelViewController.swift in Sources */,
 				02AC7EB11F9A3A6C00AFE44D /* ViewController.swift in Sources */,
